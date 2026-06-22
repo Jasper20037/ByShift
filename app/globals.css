@@ -4,6 +4,7 @@
   --background: #FAFAF8;
   --surface: #F0EFEA;
   --accent: #FF4D00;
+  --on-accent: #ffffff;
   --foreground: #111111;
   --muted: #666666;
   --line: rgba(0, 0, 0, 0.08);
@@ -14,6 +15,7 @@
     --background: #0A0A0A;
     --surface: #1A1A1A;
     --accent: #C8FF00;
+    --on-accent: #000000;
     --foreground: #F5F5F5;
     --muted: #888888;
     --line: rgba(255, 255, 255, 0.08);
@@ -24,6 +26,7 @@
   --color-background: var(--background);
   --color-surface: var(--surface);
   --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-line: var(--line);

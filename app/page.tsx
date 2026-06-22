@@ -90,9 +90,9 @@ export default function Home() {
             <button
               type="submit"
               disabled={!email || !accepted}
-              className="w-full bg-accent text-white font-sans text-sm tracking-widest uppercase py-4 disabled:opacity-30 hover:opacity-90 transition-opacity cursor-pointer disabled:cursor-not-allowed"
+              className="w-full bg-accent text-white dark:text-black font-sans text-sm tracking-widest uppercase py-4 disabled:opacity-30 hover:opacity-90 transition-opacity cursor-pointer disabled:cursor-not-allowed"
             >
-              Aanmelden →
+              Aanmelden
             </button>
           </form>
         )}
